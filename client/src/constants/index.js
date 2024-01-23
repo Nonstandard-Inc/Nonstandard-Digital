@@ -1,4 +1,25 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+  webIcon,
+  appIcon,
+  seo,
+  digitalMarketing,
+  management,
+  blockChain,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -23,28 +44,24 @@ export const navLinks = [
   },
 ];
 
-
 export const features = [
   {
     id: "feature-1",
     icon: star,
     title: "Transparent Communication",
-    content:
-      "Keeping you informed at every project milestone.",
+    content: "Keeping you informed at every project milestone.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Scalability Expertise",
-    content:
-      " Committed to delivering the highest standards. Timely",
+    content: " Committed to delivering the highest standards. Timely",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Delivery",
-    content:
-      "Agile processes for on-time project completion.",
+    content: "Agile processes for on-time project completion.",
   },
 ];
 export const features2 = [
@@ -52,22 +69,19 @@ export const features2 = [
     id: "feature-1",
     icon: star,
     title: "Expertise",
-    content:
-      " Skilled professionals with extensive industry experience.",
+    content: " Skilled professionals with extensive industry experience.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Innovation",
-    content:
-      "Staying at the forefront of technology trends.",
+    content: "Staying at the forefront of technology trends.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Client-Centric Approach",
-    content:
-      "Your success is our priority. Quality",
+    content: "Your success is our priority. Quality",
   },
 ];
 export const feedback = [
@@ -106,12 +120,68 @@ export const stats = [
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "3",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$2M+",
+    title: "Project",
+    value: "3",
+  },
+];
+export const services = [
+  {
+    id: "0",
+    title: "DIGITAL MARKETING",
+    icon: digitalMarketing,
+    content: [
+      "SEO (Search Engine Optimization)",
+      "PPC (Pay-Per-Click) Advertising",
+      "Content Marketing",
+      "Traditional Marketing",
+      "Social Media Marketing & Management",
+    ],
+  },
+  {
+    id: "1",
+    title: "MOBILE CHATBOT DEVELOPMENT",
+    icon: appIcon,
+    content: [
+      "Natural Language Processing",
+      "Machine Learning Components",
+      "Customer Support Chatbots",
+      "Lead Generation Chatbots",
+    ],
+  },
+  {
+    id: "2",
+    title: "WEB DEVELOPMENT",
+    icon: webIcon,
+    content: [
+      "Frontend Development: User Interface Design & User Experience Design",
+      "Backend Development: Server-Side Scripting, Database, Server management",
+    ],
+  },
+  {
+    id: "3",
+    title: "MOBILE APP DEVELOPMENT",
+    icon: appIcon,
+    content: [
+      "iOS App Development",
+      "Android App Development",
+      "Cross-Platform App Development Frameworks",
+      "Native App Development",
+    ],
+  },
+  {
+    id: "4",
+    title: "BLOCKCHAIN TECHNOLOGY & INTEGRATION",
+    icon: blockChain,
+    content: [
+      "Decentralized Technology",
+      "Secure Transaction",
+      "Transparency and Immutability",
+      "Applications in Finance, Supply Chain, and Smart Contracts",
+    ],
   },
 ];
 
@@ -221,4 +291,4 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
-]
+];

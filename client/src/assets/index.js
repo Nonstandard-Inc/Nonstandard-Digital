@@ -23,7 +23,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import webIcon from "./icon/app-development.png"
+import appIcon from "./icon/development.png"
+import seo from "./icon/seo.png"
+import digitalMarketing from "./icon/digital-campaign.png"
+import management from "./icon/project-manager.png"
+import blockChain from "./icon/blockchain.png"
 export {
   airbnb,
   bill,
@@ -50,4 +55,10 @@ export {
   people01,
   people02,
   people03,
+  webIcon,
+  appIcon,
+  seo,
+  digitalMarketing,
+  management,
+  blockChain
 };
